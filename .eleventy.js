@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/js');
   
   return {
-    pathPrefix: '/alex/',
+    pathPrefix: '/',
     dir: {
       input: 'src',
       output: 'docs',
